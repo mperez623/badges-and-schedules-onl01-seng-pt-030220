@@ -20,5 +20,8 @@ def assign_rooms(room_assignments)
   return empty_rooms
 end
 
-def printer()
+def printer(attendees)
+  batch_badge_creator(attendees).each #{|x| puts x} 
+  assign_room(attendees).each #{|x| puts x}
+end
   
