@@ -20,4 +20,5 @@ def assign_rooms(room_assignments)
   return empty_rooms
 end
 
+def printer()
   
