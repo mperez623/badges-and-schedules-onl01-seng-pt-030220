@@ -14,5 +14,5 @@ end
 def assign_rooms(room_assignments)
   empty_rooms = []
   room_assignments.each_with_index do |room_assignments, index|
-    empty_rooms << 
+    empty_rooms << "Hello, #{room_assignments}! You'll be assigned to room _____!"
   
